@@ -54,7 +54,7 @@ const graphInit: {[key: string]: GraphInit} = {
 };
 
 export default makeScene2D(function* (view) {
-  view.fill('#fff');
+  view.fill('#222');
   const opposite = computedFillOppositeExtreme(view);
 
   const parentRef = createRef<Rect>();
